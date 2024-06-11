@@ -1,0 +1,72 @@
+.wrap-collabsible {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1.2rem;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: block;
+
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: start;
+
+  padding: 1rem;
+
+  color: black;
+  background-color: #f2f2f2;
+
+  cursor: pointer;
+
+  border-radius: 7px;
+  transition: all 0.25s ease-out;
+}
+
+.toggle:checked + .lbl-toggle .indicator {
+  transform: rotate(90deg);
+}
+
+.collapsible-content {
+  height: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 200px;
+  height: 150px;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  margin-top: 10px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+
+.readMore {
+  cursor: pointer;
+  margin-top: 8px;
+  color: #606161;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.readMore:hover {
+  text-decoration: underline;
+  color: #42b6b6;
+}

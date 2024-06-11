@@ -1,0 +1,101 @@
+.articleInputContainer {
+  height: 99%;
+}
+.articleInputTitle {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.articleInputTitle h1 {
+  font-size: 26px;
+  font-weight: 600px;
+  margin-left: 15px;
+}
+
+.articleInputTitle input {
+  width: 92%;
+  height: 50px;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.articleInputContent {
+  width: 90%;
+  height: calc(100% - 182px);
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.articleInputContent h1 {
+  font-size: 26px;
+  font-weight: 600px;
+  margin-left: 15px;
+}
+
+.articleInputContentEditor {
+  width: 100%;
+  height: fit-content;
+}
+
+.articleInputContentEditorTools {
+  width: 90%;
+  height: fit-content;
+  border-radius: 0 0 8px 8px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border: none;
+
+  padding: 20px;
+}
+.articleInputContentEditorMenu {
+  margin-bottom: 20px;
+}
+.articleInputContentEditorMenu span {
+  margin: 30px 20px 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.articleInputContentEditorIcons svg {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.articleInputContentEditorIcons p {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  background-color: #ebebeb;
+  width: 120px;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.articleInputContentEditor textarea {
+  width: 90%;
+  height: 200px;
+  border-radius: 0 0 8px 8px;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: none;
+  z-index: -1;
+  margin-top: 2px;
+  padding: 25px;
+  outline: none;
+  font-size: 18px;
+  resize: none;
+}

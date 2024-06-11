@@ -1,0 +1,5 @@
+<div class="articleDisplay">
+    <% content.forEach((item,index)=> { %>
+        <%- include('thread',{title:item.thread_title,content:item.thread_content,id:item.thread_id,index}) %>
+            <% }) %>
+</div>

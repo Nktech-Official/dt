@@ -1,0 +1,142 @@
+.threadBuilder {
+  height: 100%;
+}
+.threadBuilderTitle {
+  height: 50px;
+  border-color: #00000066;
+  display: flex;
+  align-items: center;
+  background-color: #feffc033;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.arraowUp {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.threadBuilderTitle h1 {
+  margin-left: 60px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.threadBuilderInputs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.threadBuilderInputItem {
+  height: 150px;
+  width: 45%;
+  /* border: 1px solid; */
+  border-radius: 20px;
+  overflow: hidden;
+  border-color: #333333;
+  background-color: #0000000d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.threadBuilderInputItem h3 {
+  width: 100%;
+  height: 35px;
+  opacity: 1;
+  color: black;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.threadBuilderInputItem textarea {
+  width: 96%;
+  height: calc(100% - 35px);
+  resize: none;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-top: 8px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.threadBuilderInputItem textarea:focus {
+  outline: none;
+}
+
+.action {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actionIcons {
+  display: flex;
+  width: 160px;
+  height: 70%;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+.aIcon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionSelectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 300px;
+  margin-right: 30px;
+  font-weight: bold;
+}
+.aSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.aSelector svg {
+  margin-left: 10px;
+}
+.subThreadButton {
+  background-color: #0029ff;
+  color: #ffffff;
+  display: flex;
+  height: 36px;
+  width: fit-content;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin: 20px 0 0 30px;
+}
+.subThreadButton svg {
+  margin-right: 10px;
+}
+
+.summary {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+
+  height: 180px;
+}
+
+.summary textarea {
+  width: 98%;
+}
